@@ -1,0 +1,705 @@
+Nov 15th 2021
+--------------
+
+     Software To be Installed:
+     
+     	vm- for unix ,shell scripting etc...
+     	mysql server - cli
+     	mongodb
+     	JDK11
+     	Eclipse IDE (for developing web Apps)
+     	vs code( HTML5 css3 JS)
+     	Spring Tool Suite- STS4.12.1 
+     	
+     	
+     
+       Developing Web Application :
+       ----------------------------
+       	web App: which works on web browser...
+       
+       
+       
+	Software :
+	---------
+			Banking
+			Inventory or E commerce
+			Networking or Social Media => WEB APPs
+			Insurance 
+			Billing
+			IOTs ....
+			
+			
+	Software Engineering:
+	=====================
+				the establishment and use of sound engineering principles in order to obtain reliable software 
+				and works efficiently.
+				
+				cx1: 100000 - 30000 =  70,000
+				
+				cx2: 50000  + 30000 =  80,000
+				
+				===============================
+				Developemt + Unit Testing(Junit) or white Box Testing
+				
+				======================================================================================
+				
+				Testing Team : Black Box Testing or manual Testing......
+				
+			Differnet Types of Model:
+			-------------------------
+			
+			SDLC : Software Development Life Cycle
+			
+				SDLC Phases:
+			
+					1) Requirements gathering
+						BRS: Busniess Requirement SPecification.
+						FRS: Functional Requirement Specification.
+						SRS: Software Requirement Specification.
+						CRS: Customer Requirement SPecification.
+						
+					2) Analysis and Feasibilty Study
+					
+					3) Design
+						FDD: Functional Design Document.
+						TDD: Technical Design Document.
+						----------------------------------
+						HLD: High Level Design
+						LLD: Low Level Design
+						
+					4) Coding
+					
+					5) Testing
+					       STLC : Software Test Life Cycle
+					6) Implementaion
+					7) Maintainence
+							SLA:Service Level Agreement
+							
+			Waterfall model
+			V model or (V & V Mode)l: Verification and Validation
+			
+			Three Types of Testing:
+				1) White Box Testing (developers)
+				2) Black Box Testing (Testers)
+					Functional Testing
+					Integration Testing
+					System testing or End to end Testing
+				3) Grey Box Testing (Automation Testing : WBT + BBT)
+						example : selenium
+						
+			Spiral Model:
+			=============
+				Product based companies
+				Long term Projects
+				Changes in requiremetn can be handled easily
+				Project can be released in different phases modules versions etc..
+				DisAdvantage :
+						Inter Dependency between the modules
+						
+				Aplha Testing:
+				Beta Testing:
+				Golden Release:
+				General Availability:
+			
+			Agile Model:(1 to 6 months)
+			--------------
+			    product based companies for short term
+			    
+			    Scrum or Sprint
+			    XP : X-treame Programming( 1 to 4 weeks)
+			    	
+			    	A 	D1
+			    	
+			    	B	D2
+			    	
+			    	C	D3
+			    	
+			    	D	D4
+			    
+			
+			
+			Prototype Model:
+			----------------
+						
+				
+			
+			
+			
+			
+			
+			Hybrid Model.....
+			------------------
+			
+				ProtoType Model + Sprial Model => Hybrid Model		
+			
+			
+			
+			Agile
+			Scrum
+			
+			===========================================================================================
+			
+			Software Testing:
+			-----------------
+					Its a process to validate the requiremetns by testing the application.
+					
+					Manual Testing:
+						SDLC 
+						     SDLC Phases
+						     SDLC Models
+						
+						Functional Testing and :
+						------------------------
+							Functional Testing,Integratio Testing,System Testing,
+							
+							Smoke Testing or Sanity Testing or build verification testing:
+							---------------------------------
+								Testing the basic or critical features of an application before doing
+								thorough or rigorous testing is called smoke testing.
+							
+							
+							
+							Ad-Hoc Testing:
+							---------------
+							Testing the application randomly.Is alse referred as  Monkey Testing.
+							
+							
+							
+							Recovery testing:
+							-----------------
+							Testing the application to check how well it recovers from crashes or disasters.
+							
+							
+							Acceptance Testing:
+							-------------------
+							
+							
+							Regression Testing:
+							-------------------
+								Module1
+								Module2
+								Module3
+								Module4
+								Module5 <- changes
+								Module6
+								Module7
+								Module8
+								Module9
+								Module10
+								
+								URT: Unit Regression Testing
+								RRT: Regional Regression Testing
+								FRT: Functional Regression Testing
+							
+							Test Case:
+							----------
+								Test case is a document which covers all possible scenarios to test all
+								the features.
+								
+								
+							Test case Design Techniques:
+							
+							1) Error Guessing:
+										Guessing the error.
+							2) Equivalence partioning
+									-> Pressman:
+										1) if input is range of vales :
+										we will design testcase for1v valid and 2 invalid values.
+										
+										example:
+										
+											500 - valid
+											   90  - invalid
+											   6000 -invalid
+											   
+									 	2) If input is set og values::
+									 	        101 - valid
+									 	           25 - invalid
+									 	           40 - invalid
+								
+									-> Practise:
+										90 100 1000 2000 3000 4000 5000 6000
+										         if(value < 100 or > 5000){
+										         // out of range - error
+										         }
+										         
+										         if( value in between 100 & 2000){
+										          //Deduct 2%
+										         }
+										         
+										         if(value > 2000){
+										         //Deuct 3%
+										         }
+										         
+										
+									
+									
+							3) Boundary value Analysis:
+							
+								If input is a range of values between A and B then design test case for
+								
+								A,A+1,A-1 and B,B+1,B-1.
+								
+								example:
+								
+									100
+								99		101
+							
+						Assignment:
+						----------
+						
+						Write a Test Case for Sports App
+						
+						Module1: Players
+							Functionality :
+						Module2: Games
+							Functionality : (Module 1 + Module2)
+						Module3: Scores
+							Functionality : (Module1 + Module2 + Module3)
+							
+						
+						Non-Functional Testing:
+						------------------------
+						Performance Testing:
+						====================
+							Load Testing
+						Stabilty of the application by applying load and measuring response time
+							   No of Users           Response Time
+							   
+							       100                     1s
+							       200                     2s
+							       300                     5s
+							       500                     8s
+							       700                     18s
+							       900                     30s
+							      1000                     45s
+							      1200                     100s
+							      1500                   XXXXXXXX <- Scalibilty Testing
+						
+						Compatiblity Testing:
+						======================
+						
+							Testing the application in different software and hardware environment.
+							
+							-> Test on different processors
+							-> Test on different RAM
+							-> Test on different MotherBoard
+							-> Test on dufferent VGA cards
+							
+						The various compatibilty bugs are :
+						  -> Scattered Content
+						  -> Alignment Issues
+						  -> Broken frames
+						  -> change in look an feel of the application
+						  -> Object Overlapping
+						  -> change in font size style and color
+						 
+						
+						Reliablity Testing:
+							Testing the functionality of an application continiously for a particular 
+							period of time.
+							
+						Usability Testing:
+							Testing the user friendliness of an application is called Usability Testing.
+							
+							Speed
+							Help
+							Simple Navigation
+							compatibilty
+							Look and Feel
+							
+						
+						508 Complience Testing or Accessiblity Testing or ADA(American Disability Act):
+						-------------------------------------------------------------------------------
+								Testing the application from the physically challenged point of view.
+								
+					
+						
+						
+						
+						STLC:
+						-----
+						
+						SOFTWARE TEST LIFE CYCLE:
+						
+						REQUIREMETNS  -------------->   System Study
+						
+										  Write Test Plan
+										
+					Identify all possible <-------------    Write Test Cases
+					    test scenarios
+					    
+					  Write Test				  Tracebility Matrix
+					  
+					  Review Test 				  Test Execution
+					  
+					  Fix Review				  Defect Tracking
+					  
+					  Test Case				  Prepare Test Executuin (TER)
+					  					  report and send it to customer
+					  
+					  Store it in
+					  test case repository(TCR)		   Retrospect Meeting
+					    
+					    
+					    
+	DEFECT LIFE CYCLE:
+	------------------
+	
+	Bug Error Defect Issue.......
+							Bug Life Cycle
+							TestPlan
+							TestCase:procedure to write TestCase
+							RTM : Requirement Traceability Matrix
+							Bug Tracker Tools
+							
+					
+					Automation Testing:
+					---------------------
+						Core Java + Selenium Tool
+								WebDiver
+								TestNG
+								DDF: Data Driven Framework
+								KDF: KeyDriven Framework
+								HF : Hybrid Framewrk
+								POM: Page Object Model
+	
+	TEST PLAN:
+	----------
+		Its a document which drives all future testing activities.
+		
+		1) Objective:
+		2) Scope
+		3) Testing Methodologies
+		4) Approach
+			-> By writing high level scenarios
+			-> By writing flow graphs
+		5) Assumptions:
+				while writing test plans,certain assumptions would be made like technology,resources etc....
+				
+		6) Risk:
+			If assumptions fail,risks are involved.
+		
+		7)CONTINGENCY PLAN OR MITIGATION PLAN OR BACK UP PLAN:
+		
+				D1      A
+				
+				D2      B
+				
+				D3      C
+				
+		8)ROLES AND RESPONSIBILITIES:
+		
+		9)SCHEDULES:
+				each activity time lines - exact date should be mentioned for every activity.
+				
+		10) DEFECT TRACKING
+		
+			-> Procedure to track a defect
+			-> Defect tracking tool
+			-> Severity:
+				    Blocker(show-stopper)
+				    Critical
+				    Major
+				    Minor
+			-> Priority:
+				    High
+				    Medium
+				    Low
+				    
+		11) Test Environment:
+			
+				Hardware
+				Software
+				Procedure to install the software
+				
+		12) Entry and Exit Criteria:
+		
+		13) TEST AUTOMATION
+		
+				Features to Automate
+				Featires not to automate
+				Automation Tool
+				Automation Framework
+				
+		14) DELIVERABLES:
+			Test Plan
+			Test Cases
+			Test Scripts
+			Tracebility Matrix
+			Defect Report
+			Test Execution Report
+			Graphs
+			Release Notes.
+			
+			
+		15) TEMPLATES:
+			contains all templates for the documents which will be used in the project.
+			
+			
+			
+===================================================================================================================
+Nov 18 2021:
+		VCS:
+			Version Control System
+			
+			Git:
+				Open Source	
+				BackUp
+				Security
+				Branching
+				Can Manage Repository easily
+				
+				
+				git init :
+					 initialize current durectory as a Git repository.
+				created a new folder:
+				
+				created new file
+				git status
+					: returns the current state of the re[ository.
+				git add .
+					: adds files to the staging area for git.
+					before a file is available to commit to a repository,the file needs to be added to the Git  
+					 Index(staging area)
+				git status
+				git commit -m "message"
+					:Records the changes made to the files to a local repository.
+					each commit has a unique ID.
+				git status
+				git push --set-upstream origin master
+					:selds local commits to the remote repositpry.
+					
+=====================================================================================================================================
+
+	AGILE:
+	------
+		Agile software development refers to software development methodologies .
+		Agile development enables teams to deliver soultions faster,with greater quality and quick response to the change.
+		
+		Scrum and Kanban are two of the most widely used Agile methodologies.
+		
+		Advantages:
+		-----------
+			1) Increase the quality of the deliverables
+			2) Cope better with change
+			3) Provides better estimates while spending less time creating them
+			4) Be more in control of the Project schedule and state.
+			
+			
+			
+	User Story:
+	-----------
+			A User Story describes a desired feature (functional requirement) in narrative form.
+			
+			User stories written by Product Owner.
+			
+			
+			Name:
+			Description:
+			How to test:
+			Screens and External documents
+			Story
+			Defect
+			
+	Scrum Roles :
+	------------
+			There are three roles defined in Scrum:
+			1) ScrumMaster
+			2) the Product Owner and
+			3) the Team
+			
+	
+	Agile Principles:
+	-----------------
+		1. Our highest priority to satisify the customer through early and continious delivery of valuable software.
+		2. Welcome changing requirements,even late in developement.Agile processes harness chnage for the customers
+			competative advantage
+		3. Deliver working software frequently,from a couple of weeks to a couple of months.
+		4. Business Poeple and developers must work togeather daily throughout the project.
+		5. Build Projects around motivated individuals.Give then environemnt and support they need,and trust them to get
+			job done.
+		6. The most efficient and effective method of conveying information to and within a development team is face-to-face
+			conversation.
+			
+		7. Working software is the primary measure of progress.
+		8. Agile Processes promote sustainable developemnt.
+		9. Continious attention to technical excellence and good design enhances agility.
+		10. Simplicity- the art if maximizing the amount of work not done is essential.
+		11. The best architectures,requirements and designs emerge from self organizing teams.
+		12. At regular intervals ,the team reflects on how to become more effective accordingly.
+		
+=============================================================================================================================
+	19-Nov-2021
+	
+	Unix:
+	------
+	
+	Architecture:
+	-------------
+			Kernel:
+			    interacts with hardware and tasks like file management,Schedulers ,Memory etc.....
+			    
+			Shell:
+				its the utility that processes user requests.	
+		
+			for instance :
+					when user enters or types command at terminal,shell interprets the command.
+					
+					Availble Shells in Unix:
+					C Shell
+					Bourne Shell
+					Korn Shell.
+					
+					
+		      rwx rwx rwx 
+		      111 111 111 -> 777
+		                  
+		      / is called as root
+		      
+		      
+		      
+		      ====================================================================================
+		      
+		      chmod :
+		      		r (read) = 4
+		      		w (write) = 2
+		      		x(execute)= 1
+		      		no permission=0
+		      		
+		      		
+		      		rwx = 4+2+1 = 7  (111)
+		      		r_x = 4+0+1 = 5
+		      		
+		      		
+		      			2 7         (111)
+		      		          3 -  1
+					  2  - 1
+					  1			
+		
+		tar -zcvf  backup-sample1.tar.gz sample1/		
+		tar -zxvf backup-file.tar.gz
+		
+		
+		sudo apt-get install zip unzip
+		
+		
+		zip -r  backup-new.zip *
+		unzip backup-new.zip
+		
+		Grep:
+			Global Regular Expression Print.
+			grep string filename
+			
+			
+			
+			
+Nov 24 2021:
+------------	
+
+	tr : utility for translations or  deleting characters.
+	
+	syntax :   tr [OPTION] SET1 [SET2]
+			
+			
+			-c : complements the set of characters in string that is  operations apply to charaxters not in the given set.
+			-d : delete characters in the first set from the output
+			-s : replaces repeated characters listed in the set1 with single occurence
+			-t : truncates set1
+			
+	more:
+	-----
+		syntax : more [-options][-num][+/pattern][+linenum][filename]
+		
+		more is used to view the text files in the command prompt.
+		[-options]:
+			-d -l -f -p
+		[-num]:
+			number of lines that you want to display per screen
+		[+/pattern]:
+				replace the pattern with any string that you want to find in the text file.
+				
+		[+linenum]:
+				use the line number from where you want to start displaying the text content.
+				
+		[file_name]:
+				name of the file containing the text that you want to display on the screen.
+			
+			
+	find:
+	-----
+		find [where to start searching from] [expression - what to find][-options][what to find]
+		
+		
+==================================================================================================
+
+25-Nov-2021
+-----------
+
+	Shell Script :
+	
+		filename.sh
+		
+		#!/bin/sh
+		echo "Welcome to Shell Scriting"
+		
+		
+		swapping 2 numbers without using temp variable
+		fibonacci series
+		even or odd
+		n factorial
+		string palindrome
+		
+		
+=======================================================================================================================================
+
+26-Nov-2021
+-----------
+
+	file permissions
+	
+	
+	To add a new group : sudo groupadd mygroup 
+			      grep mygroup /etc/group
+			      sudo usermod -a -G mygroup john
+			      sudo usermod -a -G mygroup jimmy
+			      
+			      grep mygroup /etc/group
+			      
+			      
+			      
+			      
+--------------------------------------------------------------------------------------------------------------
+
+mysql:
+
+    mysql server running on localhost or 127.0.0.1 
+      port is 3306
+      username is root
+      password is admin
+      
+      
+      SQL command categories:
+         DDL - Data Definition Language
+         DQL - Data Query Language
+         DML - Data Manipulation Language
+         DCL - Data Control Language
+         TCL = Transaction Control Language.
+         
+         
+      
+	show databases;
+	create database sampleDB1;
+	use sampleDB1;	
+	create table Users(id int AUTO_INCREMENT,email varchar(50),password varchar(50),PRIMARY KEY(id));
+	desc Users;
+	insert into Users(email,password) values ("john@gmail.com","123456"));
+        select * from Users where id = 2;
+        
+        
+
+	Database Name : sampleDB1
+	Table Name    : Users
+	
+	   id     email           password
+	   1    john@gmail.com     123456 	
