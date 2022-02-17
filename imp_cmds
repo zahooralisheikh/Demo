@@ -1,0 +1,593 @@
+1  sudo  apt-get install mysql-server
+    2  mysql
+    3  sudo mysql -u
+    4  sudo mysql
+    5  mysql -u root -p
+    6  sudo -l
+    7  ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'ubuntu';
+    8  mysql -u root
+    9  sudo -i
+   10  mysql -u root -p;
+   11  exit;
+   12  mysql;
+   13  mysql
+   14  sudo mysql -u root -p
+   15  cd Downloads/
+   16  ls
+   17  sudo apt install ./google-chrome-stable_current_amd64.deb 
+   18  mysql -u root -p
+   19  sudo apt-install mongodb;
+   20  sudo apt-get install mongodb;
+   21  mongo
+   22  exit
+   23  sudo apt update
+   24  sudo apt upgrade -y
+   25  clear
+   26  sudo wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+   27  sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/20.04/mssql-server-2019.list)"
+   28  sudo apt update
+   29  sudo apt install -y mssql-server
+   30  sudo /opt/mssql/bin/mssql-conf setup
+   31  systemctl status mssql-server --no-pager
+   32  sudo apt install net-tools
+   33  sudo netstat -tnlp | grep sqlservr
+   34  sudo ufw allow 22
+   35  sudo ufw allow 1433
+   36  sudo ufw allow 1434
+   37  sudo ufw enable
+   38  sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/20.04/mssql-server-2019.list)"
+   39  udo apt-get update
+   40  sudo apt-get update
+   41  sudo apt-get install -y mssql-server
+   42  sudo /opt/mssql/bin/mssql-conf setup
+   43  sudo systemctl stop mssql-server
+   44  sudo /opt/mssql/bin/mssql-conf setup
+   45  systemctl status mssql-server --no-pager
+   46  sudo apt-get update 
+   47  sudo apt install curl 
+   48  curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list | sudo tee /etc/apt/sources.list.d/msprod.list
+   49  sudo apt-get update
+   50  sudo apt-get install mssql-tools 
+   51  echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bash_profile
+   52  echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+   53  source ~/.bashrc
+   54  sqlcmd -S localhost -U SA -P '<YourPassword>'
+   55  sqlcmd -S localhost -U SA -P '<Sql123@#$>'
+   56  sqlcmd -S localhost -U SA -P 'Sql123@#$'
+   57  sqlcmd -S localhost -U SA -P Sql123@#$
+   58  sqlcmd -S localhost -U SA -P '<Sql123@#$>'
+   59  sqlcmd -S localhost -U
+   60  sqlcmd -S localhos
+   61  sqlcmd -S localhost -U SA
+   62  sqlcmd
+   63  sqlcmd -S localhost -U SA -P
+   64  sqlcmd -S localhost -U SA
+   65  sqlcmd -S localhost -U SA 'Sql123@#$'
+   66  echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+   67  sqlcmd -S localhost -U SA
+   68  sqlcmd -S localhost SA
+   69  sqlcmd -S localhost -U SA 'Sql123@#$'
+   70  sqlcmd -S localhost -U SA <'Sql123@#$'>
+   71  sqlcmd -S localhost -U SA <Sql123@#$>
+   72  sqlcmd -S localhost -U SA Sql123@#$
+   73  sqlcmd -S localhost -U SA <'Sql123@#$'>;
+   74  echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+   75  source ~/.bashrc
+   76  sqlcmd -S localhost -U SA Sql123@#$
+   77  sqlcmd -S localhost -U SA <'Sql123@#$'>
+   78  sqlcmd -S localhost -U SA <Sql123@#$>
+   79  sqlcmd -S localhost -U SA -P '<Oracle123@#$>'
+   80  sqlcmd -S localhost -U SA -P
+   81  exit
+   82  sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/20.04/mssql-server-2019.list)"
+   83  sudo apt-get update
+   84  sudo apt-get install -y mssql-server
+   85  sudo /opt/mssql/bin/mssql-conf setup
+   86  systemctl status mssql-server --no-pager
+   87  sudo apt-get update 
+   88  sudo apt install curl
+   89  curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+   90  curl https://packages.microsoft.com/config/ubuntu/20.04/prod.list | sudo tee /etc/apt/sources.list.d/msprod.list
+   91  sudo apt-get update 
+   92  sudo apt-get install mssql-tools unixodbc-dev
+   93  sudo apt-get update 
+   94  sudo apt-get install mssql-tools
+   95  sqlcmd -S localhost -U SA -P 'Sql123@#$'
+   96  ssh-keygen
+   97  ssh-copy-id 192.168.1.13
+   98  sudo systemctl status ssh
+   99  sudo apt update
+  100  sudo apt install ansible
+  101  ansible --version
+  102  ansible all -m ping
+  103  ifconfig
+  104  ifconfig
+  105  ssh-copy-id 192.168.1.12
+  106  sudo apt install openssh-server
+  107  ssh-copy-id 192.168.1.12
+  108  ssh-copy-id 192.168.1.13
+  109  ssh-copy-id 192.168.1.255
+  110  ssh-copy-id 192.168.1.14
+  111  sudo systemctl status ssh
+  112  ssh-copy-id 192.168.1.14
+  113  sudo ssh-copy-id 192.168.1.14
+  114  sudo apt install openssh-server
+  115  sudo ssh-copy-id 192.168.1.14
+  116  ssh-copy-id 192.168.1.14
+  117  ssh-copy-id node2@192.168.1.15
+  118  ssh-copy-id 192.168.1.15
+  119  ssh-keygen
+  120  ssh-copy-id 192.168.1.9
+  121  ssh-copy-id node1@192.168.1.9
+  122  ssh-copy-id node1@192.168.1.15
+  123  ssh-copy-id 192.168.1.15
+  124  sudo gedit/etc/ansible/hosts
+  125  sudo gedit/etc/ansible/hasnain
+  126  clear
+  127  ssh-copy-id ssh-copy-id 192.168.1.15
+  128  ssh-copy-id 192.168.1.15
+  129  ssh-copy-id 192.168.1.255
+  130  sudo gedit /etc/ansible/hosts
+  131  ssh-copy-id 192.168.1.15
+  132  sudo gedit /etc/ansible/hosts
+  133  ssh-copy-id 192.168.1.15
+  134  ssh-copy-id node2@192.168.1.15
+  135  ssh-copy-id 192.168.1.15
+  136  ssh-copy-id node2@192.168.1.15
+  137  ssh-copy-id 192.168.1.15
+  138  ssh-copy-id node2@192.168.1.15
+  139  sudo systemctl status ssh
+  140  ssh-copy-id node2@192.168.1.15
+  141  sudo su
+  142  ssh-copy-id node2@192.168.1.15
+  143  clear
+  144  ssh-copy-id node2@192.168.1.15
+  145  ssh-copy-id node1@192.168.1.9
+  146  ssh 192.168.1.9
+  147  clear
+  148  ssh-keygen
+  149  clear
+  150  ssh-copy-id node1@192.168.1.9
+  151  ssh-copy-id 192.168.1.9
+  152  clear
+  153  ssh-copy-id node1@192.168.1.16
+  154  sudo systemctl status ssh
+  155  ssh-copy-id node@192.168.1.18
+  156  ssh-copy-id ubuntu@192.168.1.18
+  157  ssh-copy-id ubuntu@192.168.1.16
+  158  sudo systemctl status ssh
+  159  sudo gedit /etc/ansible/hosts
+  160  sudo systemctl status ssh
+  161  ansible all -m ping
+  162  sudo gedit /etc/ansible/hosts
+  163  ansible all -m ping
+  164  ssh-copy-id node1@192.168.1.16
+  165  ansible all -m ping
+  166  sudo gedit /etc/ansible/hosts
+  167  ansible all -m ping
+  168  clear
+  169  sudo apt install openssh-server
+  170  sudo apt upgrade
+  171  ssh-keygen
+  172  sudo service network-manager restart
+  173  history
+  174  pwd
+  175  cd /tmp
+  176  ls
+  177  clear
+  178  ansible all -m ping
+  179  pwd
+  180  touch myinv.txt
+  181  gedit myinv.txt
+  182  wd
+  183  pwd
+  184  cd
+  185  pwd
+  186  ansible all -m copy -a 'src=/etc/ansible/hosts dest=/tmp'
+  187  ansible all -m copy -a 'src=/etc/ansible/hosts dest=/tmp' -i /tmp/myinv.txt 
+  188  ansible all -m copy -a 'src=/etc/ansible/hosts dest=/tmp' -i '/tmp/myinv.txt' 
+  189  ansible all -m copy -a 'src=/etc/ansible/hosts dest=/tmp' -i /tmp/myinv.txt 
+  190  pwd
+  191  cd
+  192  pwd
+  193  cd /tmp
+  194  ansible all -m copy -a 'src=/etc/ansible/hosts dest=/tmp' -i /tmp/myinv.txt 
+  195  cd
+  196  cd /tmp
+  197  gedit myinv.txt
+  198  cd
+  199  ssh-copy-id 192.168.1.23@ubuntu
+  200  ssh-keygen
+  201  ssh-copy-id ubuntu@192.168.1.23
+  202  ssh-copy-id ubuntu@192.168.1.24
+  203  history
+  204  sudo gedit /etc/ansible/hosts
+  205  sudo systemctl status ssh
+  206  ansible all -m ping
+  207  sudo gedit /etc/ansible/hosts
+  208  cd /tmp
+  209  touch myinv.txt
+  210  gedit myinv.txt
+  211  ansible all -m copy -a 'src=/etc/ansible/hosts dest=/tmp' -i /tmp/myinv.txt 
+  212  ansible all -m user -a 'name=zahoor' -i /tmp/myinv.txt
+  213  cd
+  214  ansible all -m user -a 'name=zahoor' -i /tmp/myinv.txt
+  215  cd /tmp
+  216  gedit myinv.txt
+  217  ansible all -m user -a 'name=zahoor' -i /tmp/myinv.txt
+  218  ansible all -m user -a 'name=zahoor' -i /tmp/myinv.txt --become --ask-become-pass
+  219  cd
+  220  pwd
+  221  touch first_book.yaml
+  222  ls
+  223  gedit first_book.yaml
+  224  ansible-playbook first_book.yaml -i myinv.txt
+  225  ansible
+  226  ansible-playbook
+  227  ansible -playbook
+  228  ansible-playbook first_book.yaml -K myinv.txt
+  229  ansible-playbook first_book.yaml -i myinv.txt
+  230  cd /tmp
+  231  touch config.txt
+  232  gedit config.txt
+  233  ansible-playbook first_book.yaml -i myinv.txt
+  234  ansible-playbook first_book.yaml -K
+  235  cd
+  236  ansible-playbook first_book.yaml -K
+  237  gedit config.txt
+  238  gedit myinv.txt
+  239  cd /tmp
+  240  gedit myinv.txt
+  241  ansible-playbook first_book.yaml -K
+  242  cd
+  243  ansible-playbook first_book.yaml -K
+  244  sudo gedit /etc/ansible/hosts
+  245  ansible-playbook first_book.yaml -K
+  246  cd /tmp
+  247  gedit config.txt
+  248  gedit first_book.yaml
+  249  cd
+  250  gedit first_book.yaml
+  251  cd /tmp
+  252  ansible-playbook first_book.yaml -K
+  253  cd
+  254  ansible-playbook first_book.yaml -K
+  255  cd /tmp
+  256  ansible-playbook first_book.yaml -K
+  257  cd
+  258  cd /tmp
+  259  gedit first_book.yaml
+  260  cd
+  261  gedit first_book.yaml
+  262  ansible-playbook first_book.yaml -K
+  263  gedit config.txt
+  264  cd /tmp
+  265  touch config.txt
+  266  ansible-playbook first_book.yaml -K
+  267  cd
+  268  ansible-playbook first_book.yaml -K
+  269  cd /tmp
+  270  gedit first-book.yaml
+  271  cd
+  272  gedit first-book.yaml
+  273  cd /tmp
+  274  gedit first_book.yaml
+  275  cd
+  276  gedit first_book.yaml
+  277  ansible-playbook first_book.yaml -K
+  278  gedit config.txt
+  279  ansible-playbook first_book.yaml -K
+  280  gedit first_book.yaml
+  281  cat config.txt
+  282  gedit first_book.yaml
+  283  ansible-playbook first_book.yaml -K
+  284  gedit first_book.yaml
+  285  ansible-playbook first_book.yaml -K
+  286  cd /tmp
+  287  ls
+  288  cat config.txt
+  289  gedit config.txt
+  290  ansible-playbook first_book.yaml -K
+  291  cd
+  292  ansible-playbook first_book.yaml -K
+  293  gedit first_book.yaml
+  294  ansible-playbook first_book.yaml -K
+  295  gedit first_book.yaml
+  296  ansible-playbook first_book.yaml -K
+  297  clear
+  298  history
+  299  history
+  300  ansible all -m ping
+  301  ansible all -m 'src=/etc/ansible/hosts dest=/temp'
+  302  ansible all -m copy -a 'src=/etc/ansible/hosts dest=/temp'
+  303  sudo systemctl status ssh
+  304  ansible all -m ping
+  305  ansible all -m copy -a 'src=/etc/ansible/hosts dest=/tmp'
+  306  ansible all -m git -a 'repo=https://github.com/sshelaka25/thlabs-git.git dest=/tmp/checkout' -K
+  307  gedit myinv.txt
+  308  cd /tmp
+  309  gedit minv.txt
+  310  cd
+  311  cd /tmp
+  312  gedit myinv.txt
+  313  ansible all -m git -a 'repo=https://github.com/sshelaka25/thlabs-git.git dest=/tmp/checkout' -K
+  314  ansible all -m git -a 'repo=https://github.com/sshelaka25/thlabs-git.git dest=/tmp/checkout' -i myinv.txt -K
+  315  clear
+  316  ansible all -m apt -a 'name=git state=present' -i myinv.txt -K
+  317  ansible all -m git -a 'repo=https://github.com/sshelaka25/thlabs-git.git dest=/tmp/checkout' -i myinv.txt -K
+  318  cd
+  319  ansible all -m git -a 'repo=https://github.com/sshelaka25/thlabs-git.git dest=/tmp/checkout' -i/tmp/ myinv.txt -K
+  320  cd /tmp
+  321  clear
+  322  ansible all -m git -a 'repo=https://github.com/sshelaka25/thlabs-git.git dest=/tmp/checkout' -i myinv.txt -K
+  323  ansible all -m git -a 'repo=https://github.com/sshelaka25/thlabs-git.git dest=/tmp/checkout' -i myinv.txt -u ubuntu -b -K
+  324  cd
+  325  ansible all -m git -a 'repo=https://github.com/sshelaka25/thlabs-git.git dest=/tmp/checkout' -i /tmp/myinv.txt -u ubuntu -b -K
+  326  sudo gedit /etc/ansible/hosts
+  327  ansible all -m git -a 'repo=https://github.com/sshelaka25/thlabs-git.git dest=/tmp/checkout' -i /tmp/myinv.txt -u ubuntu -b -K
+  328  ansible all -m ping
+  329  ansible all -m git -a 'repo=https://github.com/sshelaka25/thlabs-git.git dest=/tmp/checkout' -i /tmp/myinv.txt -u ubuntu -b -K
+  330  history
+  331  touch second-book.yaml
+  332  gedit second-book.yaml
+  333  ansible-playbook second-book.yaml -K
+  334  gedit second-book.yaml
+  335  ansible-playbook second-book.yaml -K
+  336  gedit second-book.yaml
+  337  ansible-playbook second-book.yaml -K
+  338  gedit second-book.yaml
+  339  ansible-playbook second-book.yaml -K
+  340  gedit second-book.yaml
+  341  ansible-playbook second-book.yaml -K
+  342  gedit second-book.yaml
+  343  ansible-playbook second-book.yaml -K
+  344  gedit second-book.yaml
+  345  ansible-playbook second-book.yaml -K
+  346  gedit second-book.yaml
+  347  ansible-playbook second-book.yaml -K
+  348  gedit second-book.yaml
+  349  gedit first-book.yaml
+  350  cd /tmp
+  351  gedit first-book.yaml
+  352  ansible-playbook first-book.yaml -K
+  353  sudo apt-get update
+  354  clear
+  355  cd
+  356  sudo apt-get install docker-ce docker-ce-cli containerd.io
+  357  sudo apt-get install docker.io
+  358  docker -v
+  359  docker run -it   ubuntu /bin/bash
+  360  sudo docker run -it   ubuntu /bin/bash
+  361  sudo docker run -it ubuntu /bin/bash
+  362  docker run -it ubuntu /bin/bash
+  363  sudo su
+  364  history
+  365  docker--compose
+  366  docker-compose
+  367  su -i
+  368  sudo su
+  369  cd minik
+  370  minikube start
+  371  minikube start driver=docker
+  372  driver=docker
+  373  minikube start driver=docker
+  374  apt remove minukube
+  375  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+  376  cd
+  377  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+  378  minikube status
+  379  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  380  minikube start
+  381  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  382  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+  383  minikube start
+  384  minikube start --cpus 1 --memory 1024 --kubernetes-version v1.13.0
+  385  root@debiandev:/home/x# lscpu | grep Virtualization
+  386  Virtualization type:   full
+  387  root@debiandev:/home/x# minikube start --no-vtx-check
+  388  o   minikube v1.0.0 on linux (amd64)
+  389  $   Downloading Kubernetes v1.14.0 images in the background ...
+  390  >   Creating virtualbox VM (CPUs=2, Memory=2048MB, Disk=20000MB) ...
+  391  !   Unable to start VM: create: creating: Unable to start the VM: /usr/bin/VBoxManage startvm minikube --type headless failed:
+  392  VBoxManage: error: VT-x is not available (VERR_VMX_NO_VMX)
+  393  VBoxManage: error: Details: code NS_ERROR_FAILURE (0x80004005), component ConsoleWrap, interface IConsole
+  394  Details: 00:00:00.631564 Power up failed (vrc=VERR_VMX_NO_VMX, rc=NS_ERROR_FAILURE (0X80004005))
+  395  *   Sorry that minikube crashed. If this was unexpected, we would love to hear from you:
+  396  -   https://github.com/kubernetes/minikube/issues/new
+  397  minikube start --no-vtx-check
+  398  ubuntu@ip-172-31-12-250:~$ lscpu | grep Virtualization
+  399  Virtualization type: full
+  400  Please check your BIOS, and ensure that you are running without HyperV or other nested virtualization that may interfere
+  401  $ minikube start
+  402  😄  minikube v1.2.0 on linux (amd64)
+  403  🔥  Creating virtualbox VM (CPUs=2, Memory=2048MB, Disk=20000MB) ...
+  404  E0723 13:38:57.444511    3837 start.go:559] StartHost: create: precreate: This computer doesn't have VT-X/AMD-v enabled. Enabling it in the BIOS is mandatory
+  405  💣  Unable to start VM
+  406  ❌  Error:         [VBOX_VTX_DISABLED] create: precreate: This computer doesn't have VT-X/AMD-v enabled. Enabling it in the BIOS is mandatory
+  407  💡  Advice:        In some environments, this message is incorrect. Try 'minikube start --no-vtx-check'
+  408  ⁉️   Related issues:
+  409  😿  If the above advice does not help, please let us know: 
+  410  👉  https://github.com/kubernetes/minikube/issues/new
+  411  $ lscpu | grep -i virt
+  412  Virtualisation:      AMD-V
+  413  $ minikube start --no-vtx-check
+  414  😄  minikube v1.2.0 on linux (amd64)
+  415  🔥  Creating virtualbox VM (CPUs=2, Memory=2048MB, Disk=20000MB) ...
+  416  🐳  Configuring environment for Kubernetes v1.15.0 on Docker 18.09.6
+  417  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  418  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+  419  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  420  curl -LO https://dl.k8s.io/release/v1.23.0/bin/linux/amd64/kubectl
+  421  curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+  422  echo "$(<kubectl.sha256)  kubectl" | sha256sum --check
+  423  sudo apt remove minikube
+  424  sudo apt-get update
+  425  sudo apt-get install -y apt-transport-https ca-certificates curl
+  426  sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
+  427  echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+  428  sudo apt-get update
+  429  sudo apt-get install -y kubectl
+  430  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  431  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+  432  minikube start
+  433  sudo usermod -aG docker $USER && newgrp docker
+  434  minikube start
+  435  minikube start --driver=docker
+  436  minikube delete
+  437  sudo apt-get update
+  438  sudo apt-get install -y apt-transport-https ca-certificates curl
+  439  sudo curl -fsSLo /usr/share/keyrings/kubernetes-archive-keyring.gpg https://packages.cloud.google.com/apt/doc/apt-key.gpg
+  440  sudo apt-get update
+  441  sudo apt-get install -y kubectl
+  442  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  443  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+  444  minikube start
+  445  kubectl api-resources
+  446  mkdir minik
+  447  cd minik
+  448  minikube start
+  449  kubectl create -f nginx.yaml
+  450  touch nginx_pd.yaml
+  451  gedit nginx_pod.yaml
+  452  kubectl create -f nginx_pod.yaml
+  453  gedit nginx_pod.yaml
+  454  kubectl create -f nginx_pod.yaml
+  455  kubectl get pods
+  456  kubectl get pod
+  457  kubectl get pod mynginx
+  458  kubectl get pod nginx
+  459  kubectl get pod nginx -o wide
+  460  gedit nginx_pod.yaml
+  461  kubectl create -f nginx_pod.yaml
+  462  kubectl get pod mynginx
+  463  kubectl get pod mynginx -o wide
+  464  kubectl describe pod mynginx
+  465  kubectl exec -it mynginx bash
+  466  gedit nginx_pod.yaml
+  467  kubectl apply -f nginx.yaml
+  468  minikube start
+  469  kubectl apply -f nginx.yaml
+  470  kubectl apply -f nginx_pod.yaml
+  471  kubectl get pods
+  472  gedit nginx_pod.yaml
+  473  kubectl apply -f nginx_pod.yaml
+  474  gedit nginx_pod.yaml
+  475  kubectl apply -f nginx_pod.yaml
+  476  gedit nginx_pod.yaml
+  477  kubectl apply -f nginx_pod.yaml
+  478  minikube start
+  479  kubectl apply -f nginx_pod.yaml
+  480  gedit nginx_pod.yaml
+  481  kubectl apply -f nginx_pod.yaml
+  482  gedit nginx_pod.yaml
+  483  kubectl apply -f nginx_pod.yaml
+  484  touch nginxpod.yaml
+  485  gedit nginxpod.yaml
+  486  kubectl apply -f nginxpod.yaml
+  487  gedit nginxpod.yaml
+  488  kubectl apply -f nginxpod.yaml
+  489  gedit nginxpod.yaml
+  490  kubectl apply -f nginxpod.yaml
+  491  kubectl get pods
+  492  sudo -i
+  493  ls
+  494  gedit lpod1.yaml
+  495  ls
+  496  cp lpod1.yaml  lpod2.yaml
+  497  cat lpod2.yaml 
+  498  cp lpod1.yaml  lpod3.yaml
+  499  ls
+  500  gedit lpod2.yaml 
+  501  gedit lpod3.yaml 
+  502  minikube start
+  503  kubectl apply -f lpod1.yaml
+  504  gedit lpod1.yaml
+  505  kubectl apply -f lpod1.yaml
+  506  gedit lpod1.yaml
+  507  kubectl apply -f lpod2.yaml
+  508  gedit lpod2.yaml
+  509  kubectl apply -f lpod2.yaml
+  510  gedit lpod3.yaml
+  511  kubectl apply -f lpod3.yaml
+  512  kubectl get pods --show-labels
+  513  kubectl get pods -l env=stage
+  514  kubectl get pods -l env!=stage
+  515  kubectl get pods --show-labels
+  516  kubectl get api--resources
+  517  kubectl api--resources
+  518  kubectl api-resources
+  519  gedit lpod1.yaml
+  520  gedit myrc.yaml
+  521  kubectl apply -f myrc.yaml
+  522  gedit myrc.yaml
+  523  minikube start
+  524  kubectl apply -f myrc.yaml
+  525  gedit myrc.yaml
+  526  kubectl apply -f myrc.yaml
+  527  kubectl get pods
+  528  kubectl get pod
+  529  kubectl get pods
+  530  gedit myrc.yaml
+  531  minikube start
+  532  gedit rs.yaml
+  533  kubectl apply -f rs.yaml
+  534  gedit rs.yaml
+  535  kubectl apply -f rs.yaml
+  536  gedit rs.yaml
+  537  kubectl apply -f rs.yaml
+  538  kubectl get rs
+  539  kubectl get rc
+  540  kubectl describe rs myrset
+  541  kubectl scale rs myrset --replicas=10
+  542  kubectl get pods
+  543  kubectl delete rs myrset
+  544  kubectl get pods
+  545  cp rs.yaml deploy.yaml
+  546  gedit deploy.yaml 
+  547  kubectl apply -f deploy.yaml
+  548  gedit deploy.yaml 
+  549  kubectl set image deployment nginx=nginx:1.7.9 --all true
+  550  kubectl rolout status deployment nginx
+  551  kubectl rollout status deployment nginx
+  552  clear
+  553  kubectl rollout history deployment nginx
+  554  minikube start
+  555  kubectl rollout history deployment nginx
+  556  clear
+  557  kubestl get pod
+  558  kubectl get pods
+  559  kubectl exec -it my-deploy-675bd74bb-4g8nh
+  560  kubectl exec -it my-deploy-675bd74bb-4g8nh -- /bin/bash
+  561  kubectl rollout
+  562  sudo kubectl set image deployment rsnginx=httpd --all=true
+  563  sudo kubectl rollout history deployment
+  564  history
+  565  minikube start
+  566  cd minik
+  567  ls
+  568  gedit rc.yaml
+  569  kubectl apply -f rc.yaml 
+  570  minikube start
+  571  sudo usermod -aG docker $USER && newgrp docker
+  572  minikube start
+  573  kubectl get rs
+  574  kubectl describe replicationcontrollers/nginx
+  575  kubectl get pods
+  576  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  577  unzip awscliv2.zip
+  578  sudo ./aws/install
+  579  aws --version
+  580  which aws
+  581  aws iam create-user --user-name Bob
+  582  aws configure
+  583  aws
+  584  aws s3 ls
+  585  aws configure
+  586  aws iam create-user --user-name Bob
+  587  aws
+  588  which aws
+  589  aws iam create-user --user-name Bob
+  590  aws configure
+  591  aws iam create-user --user-name Bob
+  592  ls
+  593  cd /etc/ansible/hosts
